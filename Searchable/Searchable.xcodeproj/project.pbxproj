@@ -17,6 +17,13 @@
 		DD0E10252B473517009C8366 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E10242B473517009C8366 /* Feature.swift */; };
 		DD0E10282B473B02009C8366 /* PopupMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E10272B473B02009C8366 /* PopupMenuView.swift */; };
 		DD0E102B2B473D73009C8366 /* GlassmorphismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E102A2B473D73009C8366 /* GlassmorphismView.swift */; };
+		DDA611632B48754300FF3EB8 /* DateFormatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA611622B48754300FF3EB8 /* DateFormatterView.swift */; };
+		DDA611662B48771800FF3EB8 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA611652B48771800FF3EB8 /* PeopleView.swift */; };
+		DDA611682B48773800FF3EB8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA611672B48773800FF3EB8 /* Person.swift */; };
+		DDA6116A2B4877AB00FF3EB8 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA611692B4877AB00FF3EB8 /* PersonViewModel.swift */; };
+		DDA6116D2B4889D500FF3EB8 /* GameBoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6116C2B4889D500FF3EB8 /* GameBoyView.swift */; };
+		DDA6116F2B488B7100FF3EB8 /* Retro Gaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDA6116E2B488B7100FF3EB8 /* Retro Gaming.ttf */; };
+		DDA611732B48911700FF3EB8 /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA611722B48911700FF3EB8 /* AnimationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,14 @@
 		DD0E10242B473517009C8366 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		DD0E10272B473B02009C8366 /* PopupMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupMenuView.swift; sourceTree = "<group>"; };
 		DD0E102A2B473D73009C8366 /* GlassmorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismView.swift; sourceTree = "<group>"; };
+		DDA611622B48754300FF3EB8 /* DateFormatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterView.swift; sourceTree = "<group>"; };
+		DDA611652B48771800FF3EB8 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		DDA611672B48773800FF3EB8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DDA611692B4877AB00FF3EB8 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		DDA6116C2B4889D500FF3EB8 /* GameBoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoyView.swift; sourceTree = "<group>"; };
+		DDA6116E2B488B7100FF3EB8 /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming.ttf"; sourceTree = "<group>"; };
+		DDA611702B488B8A00FF3EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDA611722B48911700FF3EB8 /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,10 @@
 		DD0E0FFE2B472039009C8366 = {
 			isa = PBXGroup;
 			children = (
+				DDA611712B48910500FF3EB8 /* Animation */,
+				DDA6116B2B4889C000FF3EB8 /* GameBoy */,
+				DDA611642B48770200FF3EB8 /* SwiftuiMVVM */,
+				DDA611612B48752F00FF3EB8 /* DateFormatter */,
 				DD0E10292B473D43009C8366 /* Glassmorphism */,
 				DD0E10262B473AE9009C8366 /* PopupMenu */,
 				DD0E101D2B473310009C8366 /* Onboarding */,
@@ -66,9 +85,11 @@
 		DD0E10092B47203A009C8366 /* Searchable */ = {
 			isa = PBXGroup;
 			children = (
+				DDA611702B488B8A00FF3EB8 /* Info.plist */,
 				DD0E100A2B47203A009C8366 /* SearchableApp.swift */,
 				DD0E100C2B47203A009C8366 /* ContentView.swift */,
 				DD0E100E2B47203B009C8366 /* Assets.xcassets */,
+				DDA6116E2B488B7100FF3EB8 /* Retro Gaming.ttf */,
 				DD0E10102B47203B009C8366 /* Preview Content */,
 			);
 			path = Searchable;
@@ -107,6 +128,40 @@
 				DD0E102A2B473D73009C8366 /* GlassmorphismView.swift */,
 			);
 			path = Glassmorphism;
+			sourceTree = "<group>";
+		};
+		DDA611612B48752F00FF3EB8 /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				DDA611622B48754300FF3EB8 /* DateFormatterView.swift */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		DDA611642B48770200FF3EB8 /* SwiftuiMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				DDA611652B48771800FF3EB8 /* PeopleView.swift */,
+				DDA611672B48773800FF3EB8 /* Person.swift */,
+				DDA611692B4877AB00FF3EB8 /* PersonViewModel.swift */,
+			);
+			path = SwiftuiMVVM;
+			sourceTree = "<group>";
+		};
+		DDA6116B2B4889C000FF3EB8 /* GameBoy */ = {
+			isa = PBXGroup;
+			children = (
+				DDA6116C2B4889D500FF3EB8 /* GameBoyView.swift */,
+			);
+			path = GameBoy;
+			sourceTree = "<group>";
+		};
+		DDA611712B48910500FF3EB8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DDA611722B48911700FF3EB8 /* AnimationsView.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA6116F2B488B7100FF3EB8 /* Retro Gaming.ttf in Resources */,
 				DD0E10122B47203B009C8366 /* Preview Assets.xcassets in Resources */,
 				DD0E100F2B47203B009C8366 /* Assets.xcassets in Resources */,
 			);
@@ -180,7 +236,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0E10252B473517009C8366 /* Feature.swift in Sources */,
+				DDA611662B48771800FF3EB8 /* PeopleView.swift in Sources */,
+				DDA611632B48754300FF3EB8 /* DateFormatterView.swift in Sources */,
+				DDA611732B48911700FF3EB8 /* AnimationsView.swift in Sources */,
+				DDA6116A2B4877AB00FF3EB8 /* PersonViewModel.swift in Sources */,
+				DDA6116D2B4889D500FF3EB8 /* GameBoyView.swift in Sources */,
 				DD0E101F2B47332C009C8366 /* OnboardingContainerView.swift in Sources */,
+				DDA611682B48773800FF3EB8 /* Person.swift in Sources */,
 				DD0E100D2B47203A009C8366 /* ContentView.swift in Sources */,
 				DD0E100B2B47203A009C8366 /* SearchableApp.swift in Sources */,
 				DD0E10282B473B02009C8366 /* PopupMenuView.swift in Sources */,
@@ -323,6 +385,7 @@
 				DEVELOPMENT_TEAM = W49998LVKV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Searchable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -352,6 +415,7 @@
 				DEVELOPMENT_TEAM = W49998LVKV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Searchable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -17,7 +17,7 @@ struct SearchableApp: App {
             if isOnboarding {
                 OnboardingContainerView()
             } else {
-                GlassmorphismView()
+                AnimationsView()
             }
         }
     }
